@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-
+import Generator from "./components/Generator"
+import Hero from "./components/Hero"
+import Workout from "./components/Workout"
 
 function App() {
 
 
   return (
-    <>
-<header>
-  <h1 className='text-lg text-green-300'>Hello World</h1>
-</header>
-    </>
+    <main className="min">
+    <Hero/>
+    <Generator/>
+    <Workout/>
+    </main>
   )
 }
 
